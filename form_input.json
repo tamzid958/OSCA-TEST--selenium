@@ -1,0 +1,11 @@
+{
+    "find_submit_btn_by": "id",
+    "submit_btn": "btnSearch",
+    "input_fields" : [
+        {
+            "find_element_by": "id",
+            "find_element_by_value": "search-strings",
+            "value": "java"
+         }
+    ]
+}
