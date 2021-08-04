@@ -7,11 +7,11 @@
             "find_element_by": "name",
             "find_element_by_value": "email",
             "values": ["test1@gmail.com" , "test2@gmail.com"]
-         },
-         {  
+        },
+        {  
             "find_element_by": "name",
             "find_element_by_value": "password",
             "values": ["test1./1=wqieq" , "test2./2=wqieq2121"]
-         }
+        }
     ]
 }

@@ -31,7 +31,7 @@ def form_submit(f):
                 print("use specific find_element_by")
                 return
 
-        driver.save_screenshot(f"./screenshots/before_submit_{i}.png")
+        driver.save_screenshot(f"./screenshots/before_submit_{i+1}.png")
 
         if find_submit_btn_by == "name":
             driver.find_element_by_name(submit_btn).click()
@@ -41,7 +41,7 @@ def form_submit(f):
             driver.find_element_by_class_name(submit_btn).click()
 
         sleep(2)
-        driver.save_screenshot(f"./screenshots/after_submit_{i}.png")
+        driver.save_screenshot(f"./screenshots/after_submit_{i+1}.png")
 
         sleep(1)
         driver.get(test_link_for_form_submit)
